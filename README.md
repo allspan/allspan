@@ -1,6 +1,9 @@
 # ⤚Allspan⤙ 
 Naming and access control spanning every user and every service
 
+## About
+Allspan is yet only an imaginary project. Probably doable. Figuring that out is the [first task](https://github.com/allspan/allspan/issues/1) - discussion welcome!
+
 ## Project scope
 Sharing should be easy, without requiring several steps and up- and downloading of the whole file contents. Allow privacy, by not requiring users to leak data or metadata, and become part of as big as practical anonymity set.
 
@@ -29,10 +32,20 @@ You `won't need to set up a server and` install Allspan in order to use it. Just
 - fetchers and other integration with storage solutions
 - adapters to projects that supply adapters to (optionally dumb) file or block storage
 
+## Explicitly out of scope
+- NIH or reinventing and rebuilding reasonably usable existing software
+- the kitchen sink
+
+## Inspirations
+- Exomemory, as described by Greg Egan.
+- Gestalt objects, as described by Hannu R.
+- Oubliette reality overlay access control, as described by Iain M Banks.
+- Event bubbles, as described by https://github.com/matshenricson/xyztr
+
 ## Milestones and Roadmap
 I've not even started yet, sorry :(
-- https://github.com/allspan/allspan/milestones
-- https://github.com/allspan/allspan/blob/master/ROADMAP.md
+- [Milestones](https://github.com/allspan/allspan/milestones)
+- [ROADMAP](https://github.com/allspan/allspan/blob/master/ROADMAP.md)
 
 ## Installation
 
@@ -67,6 +80,7 @@ Once in a while we merge develop into master, which results in a new release. Th
 - Donate Bitcoins: ask for address
 
 ## Get in touch
+- https://etherpad.fr/p/allspan or backup: https://etherpad.net/p/allspan
 - Mailing List: sorry. Please use Issues, Wiki and Gitter chat for now
 - IRC: nope
 - Gitter: yes please?
