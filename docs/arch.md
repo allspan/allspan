@@ -10,7 +10,7 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 * people can't safely store private keys
 * battery juice is precious
 * someone is watching and storing all connection metadata on internet and other public networks
-* democracy and freedom is not a given
+* democracy and freedom maybe won't last
 
 ## Differences to related solutions
 * [Camlistore's design](https://github.com/camlistore/camlistore/blob/master/doc/arch.md) gives you a server or service-based storage solution to last a lifetime, with considerations for not complicating future data arhealogy. Do read it's full [raison d'ètre](https://github.com/camlistore/camlistore/blob/master/doc/overview.md)
@@ -29,6 +29,12 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 - [Android Syncbase](https://vanadium.github.io/syncbase/) is offline-first P2P backup.
 - storing and sharing solutions; FreeNet, Gnutella, Napster, BitTorrent, tor, i2p, IPFS, Storj, Sia
 - social networks, and Diaspora*, Identi.ca, Voat, etc
+
+## Important processes (protocol)
+- finding routes
+- offering blobs
+- sharing metadata
+- fetching a file
 
 ## New terminology
 - What [Camlistory said](https://github.com/camlistore/camlistore/blob/master/doc/terms.md) about blob, blogref, blob server, schema blob, claim, permanode, sync
