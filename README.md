@@ -8,15 +8,23 @@ Allspan is yet only an imaginary project. Probably doable. Figuring that out is 
 Sharing should be easy, without requiring several steps and up- and downloading of the whole file contents. Allow privacy, by not requiring users to leak data or metadata, and become part of as big as practical anonymity set.
 
 ## Watercooler pitch
-No more sending your stuff back and forth via email, just get your file or folder Allspanned, share the link, then get back to work!
+Allspan is multi-player, multi device, collaborative ASAP file sharing. Just Allspan your file or folder, then share the link. 
 
-Allspan allows you to share files and folders collaboratively and ASAP, almost like a live multi-player file system. You're welcome and enabled to send tips to good sharers, and welcome to pay forward the ❤, since sharing is caring. Write articles, press releases, to-do lists, etc. together with your friends, fellow colleagues, or strangers, all accessing the same collections.
+Automate away from emailing your stuff back and forth; downloading, copying along, only to be uploaded again. Download here, read a PDF there, archive it all anywhere. Set your data proliferation rules and priorities, or deafult to copy-on-read.
 
-All Allspan installations have a possibility to access all data that has ever been allspanned, assuming you've not lost the share link or your login keys.
+Sharing is caring. Help your fellow datanauts, tip your tapped data providers, anonymously. Curate files with friends, or gawk over strange data leaks or trends.
+
+Each Allspan installation is part of a whole, and with a chance to access all data that has ever been allspanned. Keep your share links and keys dear, don't let any event horizon separate you from your data, on that the data, and metadata, additional backups be with you: find the metadata, then put up a download contract or shut up; no excessive gossiping, and net neutrality for all.
+
+The true data is out there. Trustevery1, but verify: that the data is its content hash, and the content hash its handle for the data. 
+
+One keyring to rule your metadata, one trustring to find it, one ring of fetchers to bring the referenced data, and into your plural backup solutions bind it, in your datascapes, where your data shadows and indexes lie.
+
+On the path of trust, your claims cost goodwills, and your metadata pays in goodwills. Route your trust, and trust your route, on that the metadata be the frenemy of your privacy, and may the data source be with you, lest your data depend on the mercy of r/datahoarders - fragmented, fractally compressed, interpolated with or without lossyness. The true data is out there.
 
 There `is to be created` a well-documented API that supports import/export to commonly used data exchange formats. And if the built-in feature set isn't enough for you, there `will hopefully be` plugins that allow you to customize your installation to suit your needs.
 
-You `won't need to set up a server and` install Allspan in order to use it. Just pick one of publicly available instances that friendly people from everywhere around the world have set up. Alternatively, you can set up your own instance by following our installation guide.
+You _won't need to set up a server and_ install Allspan in order to use it. Just pick one of publicly available instances that friendly people from everywhere around this on-world civilization have set up. Alternatively, you can set up your own instance by following [our installation guide](https://github.com/allspan/allspan/blob/master/INSTALL.md).
 
 ## Intended use-cases
 - allspan [file or folder]
