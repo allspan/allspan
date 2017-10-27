@@ -80,10 +80,10 @@ Once in a while we merge develop into master, which results in a new release. Th
 - Donate Bitcoins: ask for address
 
 ## Get in touch
-- https://etherpad.fr/p/allspan or backup: https://etherpad.net/p/allspan
+- Gitter: https://gitter.im/allspan
+- [Collaborative documentation](https://etherpad.fr/p/allspan) (or [backup](https://etherpad.net/p/allspan))
 - Mailing List: sorry. Please use Issues, Wiki and Gitter chat for now
 - IRC: nope
-- Gitter: yes please?
 - Twitter: nope, sorry
 
 ## Thanks
