@@ -31,6 +31,8 @@ You `won't need to set up a server and` install Allspan in order to use it. Just
 
 ## Milestones and Roadmap
 I've not even started yet, sorry :(
+- https://github.com/allspan/allspan/milestones
+- https://github.com/allspan/allspan/blob/master/ROADMAP.md
 
 ## Installation
 
@@ -57,12 +59,12 @@ Once in a while we merge develop into master, which results in a new release. Th
 
 ## Links
 - List of public instances: none
-- Issue tracker
-- Wiki
+- Issue tracker https://github.com/allspan/allspan/issues
+- Wiki https://github.com/allspan/allspan/wiki
 - Documentation
-- Donate on Paypal
-- Donate on flattr
-- Donate Bitcoins
+- Donate on Paypal: ask for address
+- Donate on flattr: ask for address
+- Donate Bitcoins: ask for address
 
 ## Get in touch
 - Mailing List: sorry. Please use Issues, Wiki and Gitter chat for now
