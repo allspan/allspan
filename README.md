@@ -25,7 +25,7 @@ Sharing is caring, and care for your fellow datanauts by tipping your tapped dat
 
 Curate files with friends, or gawk over strange data leaks or trends.
 
-There `is to be created` a well-documented API that supports import/export to commonly used data exchange formats. And if the built-in feature set isn't ticking your boxes, there `will hopefully be` plugins that allow you add support for contributed use casese to suit your needs.
+There _is to be created_ a well-documented API that supports import/export to commonly used data exchange formats. And if the built-in feature set isn't ticking your boxes, there `will hopefully be` plugins that allow you add support for contributed use cases to suit your needs.
 
 You _won't need to set up your own server and_ install Allspan in order to partcipiate. A group of friendlies can have a polis that trades in goodwills and allow you to post your routes.
 
