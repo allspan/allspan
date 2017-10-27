@@ -2,23 +2,35 @@
 Naming and access control spanning every user and every service
 
 ## Project scope
-
-## Intended use-cases
-
-## Milestones and Roadmap
-
-## "Pull Requests welcome" use-cases
+Sharing should be easy, without requiring several steps and up- and downloading of the whole file contents. Allow privacy, by not requiring users to leak data or metadata, and become part of as big as practical anonymity set.
 
 ## Watercooler pitch
 No more sending your stuff back and forth via email, just get your file or folder Allspanned, share the link, then get back to work!
 
-Allspan allows you to share files and folders collaboratively and ASAP, almost like a live multi-player file system. You're welcome and enabled to send tips to good sharers, and welcome to pay forward the <3, since sharing is caring. Write articles, press releases, to-do lists, etc. together with your friends, fellow colleagues, or strangers, all accessing the same collections.
+Allspan allows you to share files and folders collaboratively and ASAP, almost like a live multi-player file system. You're welcome and enabled to send tips to good sharers, and welcome to pay forward the ❤, since sharing is caring. Write articles, press releases, to-do lists, etc. together with your friends, fellow colleagues, or strangers, all accessing the same collections.
 
 All Allspan installations have a possibility to access all data that has ever been allspanned, assuming you've not lost the share link or your login keys.
 
 There `is to be created` a well-documented API that supports import/export to commonly used data exchange formats. And if the built-in feature set isn't enough for you, there `will hopefully be` plugins that allow you to customize your installation to suit your needs.
 
 You `won't need to set up a server and` install Allspan in order to use it. Just pick one of publicly available instances that friendly people from everywhere around the world have set up. Alternatively, you can set up your own instance by following our installation guide.
+
+## Intended use-cases
+- allspan [file or folder]
+- allspan -w [folder]
+- allspan --new
+- allspan --status
+- allspan --backup
+- allspan --rescan [[optional paths]\*]
+- allspan --verify [file or folder]
+- allspan --reach [file or folder]
+
+## "Pull Requests welcome" use-cases
+- fetchers and other integration with storage solutions
+- adapters to projects that supply adapters to (optionally dumb) file or block storage
+
+## Milestones and Roadmap
+I've not even started yet, sorry :(
 
 ## Installation
 
