@@ -10,10 +10,7 @@ Sharing should be easy, without requiring several steps and up- and downloading 
 ## Elevator pitch
 Allspan is _meant to be_ multi-player, multi device, collaborative ASAP file sharing. Just Allspan your file or folder, then share the link. 
 
-## Watecooler pitch
 Automate away from emailing your stuff back and forth; downloading, copying along, only to be uploaded again. Download here, read a PDF there, archive it all anywhere. Set your data proliferation rules and priorities, or deafult to copy-on-read.
-
-Sharing is caring. Help your fellow datanauts, tip your tapped data providers, anonymously. Curate files with friends, or gawk over strange data leaks or trends.
 
 ## Dreaming of stretch goals
 Each Allspan installation is part of a whole, and with a chance to access all data that has ever been allspanned. Keep your share links and keys dear, don't let any event horizon separate you from your data, on that the data, and metadata, additional backups be with you: find the metadata, then put up a download contract or shut up; no excessive gossiping, and net neutrality for all.
@@ -23,6 +20,10 @@ One keyring to rule your metadata, one trustring to find it, one ring of fetcher
 The true data is out there. Trustevery1, but verify: that the data is its content hash, and the content hash its handle for the data. Or if the true data is not out there, maybe post a contract for a metadata lookalike; and based on tags, xyztr locality, or if you got a low res thumbnail, let AI deep dream up something almost completely different instead.
 
 On the path of trust, your claims cost goodwills, and your metadata pays in goodwills. Route your trust, and trust your route, on that the metadata be the frenemy of your privacy, and may the data source be with you, lest your data depend on the mercy of r/datahoarders - fragmented, fractally compressed, interpolated with or without lossyness.
+
+Sharing is caring, and care for your fellow datanauts by tipping your tapped data providers, anonymously.
+
+Curate files with friends, or gawk over strange data leaks or trends.
 
 There `is to be created` a well-documented API that supports import/export to commonly used data exchange formats. And if the built-in feature set isn't ticking your boxes, there `will hopefully be` plugins that allow you add support for contributed use casese to suit your needs.
 
