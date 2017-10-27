@@ -70,7 +70,7 @@ Once in a while we merge develop into master, which results in a new release. Th
 - Mailing List: sorry. Please use Issues, Wiki and Gitter chat for now
 - IRC: nope
 - Gitter: yes please?
-- Twitter: @...
+- Twitter: nope, sorry
 
 ## Thanks
 Many individuals, companies and organizations are welcome to contribute. We'd like to thank them all!
