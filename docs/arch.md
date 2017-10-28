@@ -16,8 +16,16 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 * someone is watching and storing all connection metadata on internet and other public networks
 * democracy and freedom maybe won't last
 * unfiying filesystems and naming is hard
+* once a something is shared, or viewed in public, don't rely on it still being private (analog loopholes, targeted crypto analysis and XOR) 
 
-## Goals
+## Goals (measurables)
+- store only data you care about (disk usage(private fullsync allspan instance) <= disk usage(same data minus allspan's added functionalities and underlying data)
+- nibmle (<10 kLOC)
+- standards compliant (prefer tools and protocols with semver ">=1.0")
+- automatic and adhoc naming (user can define part of the name, but isn't forced to resolve naming conflict. Adding (1) or (Copy)is technically allowed here, but frowned upon)
+- anonymity (leak less metadata than if you'd be using Signal chat app)
+- incremental sharing (adding a participant can't disrupt previous users)
+- data integrity (verifiable chain of custody of file metadata, which verifiably matches the covered data)
 
 ## Differences to related _open_ solutions
 * [Camlistore's design](https://github.com/camlistore/camlistore/blob/master/doc/arch.md) gives you a server or service-based storage solution to last a lifetime, with considerations for not complicating future data arhealogy. Do read it's full [raison d'ètre](https://github.com/camlistore/camlistore/blob/master/doc/overview.md)
@@ -47,6 +55,8 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 
 ## Security
 - Use only battle hardened crypto and in the same way as it's used elsewhere by bigger targets. Compare Bitcoin SHA256 and EC.
+- E2E and encrypted-at-rest
+
 
 ### Access control
 Compare https://github.com/upspin/upspin/blob/master/doc/security.md and https://github.com/upspin/upspin/blob/master/doc/access_control.md
