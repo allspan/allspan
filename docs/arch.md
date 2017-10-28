@@ -29,7 +29,7 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 - (partial) recoverability of data referenced in my non-private indexes also if my private key for the metadaa and my decryption keys are lost (local index has references which can be matched to willing participants, enabling data arhaeology or recovering photoalbums)
 
 ## Stretch goals (measurables)
-. dead mans switch (a user who's not routable - i.e. offline - for a defined time triggers release of some decryption keys)
+- dead mans switch (a user who's not routable - i.e. offline - for a defined time triggers release of some decryption keys)
 - recreate lost decryption keys (reset or recreate user secrets from userfile-at-rest and saved recovery phrase)
 - burn a previous i.e. exposed gestalt key (a gestalt revocation message can be published)
 - integration with messengers and social walled gardens (maybe a browser extension that snaps up any postsed text and media)
@@ -41,6 +41,12 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 * [Upspin](http://upspin.io) is a global naming solution for files and users, meant to be usable across online services and walled garden social platforms.
 * [Hashbackup](http://www.hashbackup.com/home/features) is Dropbox minus the sharing, and likely feature completed.
 * (Diaspora*)[https://wiki.diasporafoundation.org/Architecture_overview] is a good data transport, but routing is federated. Profile, sharing etc was _initially_ designed very close to something Allspan could be built on top of. It ticks many boxes, but requires trusted system operators.
+
+## Solution topologies
+- Upspin has a client, a directory server and storage servers: https://github.com/upspin/upspin/blob/master/doc/images/arch/overall.png
+- Camlistore has a server (frontend) per user, and many storage servers: https://github.com/camlistore/camlistore/blob/master/doc/arch.md
+- Diaspora* has one server (pod) per several users
+- Allspan wants to have multiple independent clients, finding their data through locally stored (and normally safely backed up) collections of keys and metadata, not requiring servers, potentially piggybacking on any and all possible storage options available, paying passage or hustling along
 
 ## Useful technologies
 - signed, traceable chain of claims, built like https://help.github.com/articles/signing-commits-with-gpg/
