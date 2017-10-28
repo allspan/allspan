@@ -12,10 +12,13 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 * someone is watching and storing all connection metadata on internet and other public networks
 * democracy and freedom maybe won't last
 
-## Differences to related solutions
+## Goals
+
+## Differences to related _open_ solutions
 * [Camlistore's design](https://github.com/camlistore/camlistore/blob/master/doc/arch.md) gives you a server or service-based storage solution to last a lifetime, with considerations for not complicating future data arhealogy. Do read it's full [raison d'ètre](https://github.com/camlistore/camlistore/blob/master/doc/overview.md)
 * [Upspin](http://upspin.io) is a global naming solution for files and users, meant to be usable across online services and walled garden social platforms.
 * [Hashbackup](http://www.hashbackup.com/home/features) is Dropbox minus the sharing, and likely feature completed.
+* (Diaspora*)[https://wiki.diasporafoundation.org/Architecture_overview] is a good data transport, but routing is federated. Profile, sharing etc was _initially_ designed very close to something Allspan could be built on top of. It ticks many boxes, but requires trusted system operators.
 
 ## Useful technologies
 - signed, traceable chain of claims, built like https://help.github.com/articles/signing-commits-with-gpg/
@@ -35,6 +38,15 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 - offering blobs
 - sharing metadata
 - fetching a file
+
+## Security
+- Use only battle hardened crypto and in the same way as it's used elsewhere by bigger targets. Compare Bitcoin SHA256 and EC.
+
+### Access control
+Compare https://github.com/upspin/upspin/blob/master/doc/security.md and https://github.com/upspin/upspin/blob/master/doc/access_control.md
+
+### Anonymity
+
 
 ## New terminology
 - What [Camlistory said](https://github.com/camlistore/camlistore/blob/master/doc/terms.md) about blob, blogref, blob server, schema blob, claim, permanode, sync
