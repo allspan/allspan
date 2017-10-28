@@ -35,6 +35,7 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 - integration with messengers and social walled gardens (maybe a browser extension that snaps up any postsed text and media)
 - device independent (an allspin user can use all functionality via a public computer on an untrusteed open network. Visual/audio for ex/infil of data through the untrusted device is allowed)
 - managed diska space (data is deduped, avoiding storing widely high bandwidth-available public data, and/or farming out storage to friends and paid storages)
+- [sousveillance](https://github.com/allspan/allspan/blob/master/docs/uses/sousveillance.md) (some minimal lifestream data can be insta-shared from one user to another)
 
 ## Differences to related _open_ solutions
 * [Camlistore's design](https://github.com/camlistore/camlistore/blob/master/doc/arch.md) gives you a server or service-based storage solution to last a lifetime, with considerations for not complicating future data arhealogy. Do read it's full [raison d'ètre](https://github.com/camlistore/camlistore/blob/master/doc/overview.md)
