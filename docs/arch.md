@@ -3,14 +3,19 @@
 TODO
 
 ## Design assumptions
+
+### Not like Camlistore
 The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlistore/blob/master/doc/overview.txt) while still agreeing with [Camlistore's principles](https://github.com/camlistore/camlistore/blob/master/doc/principles.md):
 * diskspace is limited _in practice_
 * bandwidth is metered
 * CPU feels too slow
 * people can't safely store private keys
+
+### Additional assumtions
 * battery juice is precious
 * someone is watching and storing all connection metadata on internet and other public networks
 * democracy and freedom maybe won't last
+* unfiying filesystems and naming is hard
 
 ## Goals
 
@@ -28,6 +33,7 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 
 ## Prior art in a wide sense
 - What's at https://github.com/camlistore/camlistore/blob/master/doc/prior-art.md
+- All mentions under [Diff. to realted solutions](https://github.com/allspan/allspan/blob/master/docs/arch.md#differences-to-related-open-solutions)
 - File sync and dropbox services
 - [Android Syncbase](https://vanadium.github.io/syncbase/) is offline-first P2P backup.
 - storing and sharing solutions; FreeNet, Gnutella, Napster, BitTorrent, tor, i2p, IPFS, Storj, Sia
