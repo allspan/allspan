@@ -26,6 +26,15 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 - anonymity (leak less metadata than if you'd be using Signal chat app)
 - incremental sharing (adding a participant can't disrupt previous users)
 - data integrity (verifiable chain of custody of file metadata, which verifiably matches the covered data)
+- (partial) recoverability of data referenced in my non-private indexes also if my private key for the metadaa and my decryption keys are lost (local index has references which can be matched to willing participants, enabling data arhaeology or recovering photoalbums)
+
+## Stretch goals (measurables)
+. dead mans switch (a user who's not routable - i.e. offline - for a defined time triggers release of some decryption keys)
+- recreate lost decryption keys (reset or recreate user secrets from userfile-at-rest and saved recovery phrase)
+- burn a previous i.e. exposed gestalt key (a gestalt revocation message can be published)
+- integration with messengers and social walled gardens (maybe a browser extension that snaps up any postsed text and media)
+- device independent (an allspin user can use all functionality via a public computer on an untrusteed open network. Visual/audio for ex/infil of data through the untrusted device is allowed)
+- managed diska space (data is deduped, avoiding storing widely high bandwidth-available public data, and/or farming out storage to friends and paid storages)
 
 ## Differences to related _open_ solutions
 * [Camlistore's design](https://github.com/camlistore/camlistore/blob/master/doc/arch.md) gives you a server or service-based storage solution to last a lifetime, with considerations for not complicating future data arhealogy. Do read it's full [raison d'ètre](https://github.com/camlistore/camlistore/blob/master/doc/overview.md)
@@ -48,6 +57,7 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 - social networks, and Diaspora*, Identi.ca, Voat, etc
 
 ## Important processes (protocol)
+To be defined:
 - finding routes
 - offering blobs
 - sharing metadata
