@@ -43,16 +43,22 @@ The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlist
 * (Diaspora*)[https://wiki.diasporafoundation.org/Architecture_overview] is a good data transport, but routing is federated. Profile, sharing etc was _initially_ designed very close to something Allspan could be built on top of. It ticks many boxes, but requires trusted system operators.
 
 ## Solution topologies
+Allspan wants to have multiple independent clients, finding their data through locally stored (and normally safely backed up) collections of keys and metadata, not requiring servers, potentially piggybacking on any and all possible storage options available, paying passage or hustling along.
+
+Contrast that with the alternatives, none of which have a payment or tipping method integrated:
 - Upspin has a client, a directory server and storage servers: https://github.com/upspin/upspin/blob/master/doc/images/arch/overall.png
 - Camlistore has a server (frontend) per user, and many storage servers: https://github.com/camlistore/camlistore/blob/master/doc/arch.md
 - Diaspora* has one server (pod) per several users
-- Allspan wants to have multiple independent clients, finding their data through locally stored (and normally safely backed up) collections of keys and metadata, not requiring servers, potentially piggybacking on any and all possible storage options available, paying passage or hustling along
+- freenet has P2P gosspi-flooding. All participants are equal, except a few, who may have superpowers.
+- Napster / DirectConnect / EMule are public, centralised with optionally obfuscated physical location central directories, and clients are qeual
+- BitTorrent is P2P file distribution with optional VPN-obfuscation of identity, with peer-supplied Tigerhash routing of torrent pieces
 
 ## Useful technologies
 - signed, traceable chain of claims, built like https://help.github.com/articles/signing-commits-with-gpg/
 - [SQRL](https://www.grc.com/sqrl/sqrl.htm) for Gestalt keys, and possibly to help people store private keys
 - [Snappy compression](https://google.github.io/snappy/) for cpu-friendly space/&time saving
 - private long-term routing by [paid remailers](http://nakamotoinstitute.org/for-pay-remailers/)
+- nodejs or https://github.com/twisted/twisted asynch runtimes
 
 ## Prior art in a wide sense
 - What's at https://github.com/camlistore/camlistore/blob/master/doc/prior-art.md
