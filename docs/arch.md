@@ -6,17 +6,17 @@ TODO
 
 ### Not like Camlistore
 The opposite of [Camlistore's assumptions](https://github.com/camlistore/camlistore/blob/master/doc/overview.txt) while still agreeing with [Camlistore's principles](https://github.com/camlistore/camlistore/blob/master/doc/principles.md):
-* diskspace is limited _in practice_
-* bandwidth is metered
-* CPU feels too slow
-* people can't safely store private keys
+1. diskspace is limited _in practice_
+2. bandwidth is metered
+3. CPU feels too slow
+4. people can't safely store private keys
 
 ### Additional assumtions
-* battery juice is precious
-* someone is watching and storing all connection metadata on internet and other public networks
-* democracy and freedom maybe won't last
-* unfiying filesystems and naming is hard
-* once a something is shared, or viewed in public, don't rely on it still being private (analog loopholes, targeted crypto analysis and XOR) 
+5. battery juice is precious
+6. someone is watching and storing all connection metadata on internet and other public networks
+7. democracy and freedom maybe won't last
+8. unfiying filesystems and naming is hard
+9. once a something is shared, or viewed in public, don't rely on it still being private (analog loopholes, targeted crypto analysis and XOR) 
 
 ## Goals (measurables)
 - store only data you care about (disk usage(private fullsync allspan instance) <= disk usage(same data minus allspan's added functionalities and underlying data)
@@ -60,6 +60,8 @@ Contrast that with the alternatives, none of which have a payment or tipping met
 - [Snappy compression](https://google.github.io/snappy/) for cpu-friendly space/&time saving
 - private long-term routing by [paid remailers](http://nakamotoinstitute.org/for-pay-remailers/)
 - nodejs or https://github.com/twisted/twisted asynch runtimes
+- [multihash](https://github.com/multiformats/multihash), ([multibase](https://github.com/multiformats/multibase), etc
+
 
 ## Prior art in a wide sense
 - What's at https://github.com/camlistore/camlistore/blob/master/doc/prior-art.md
@@ -82,10 +84,20 @@ To be defined:
 
 
 ### Access control
+Once something is shared, you can practically no longer control it.
+
+Uncareful file leaking could possibly be detected by tracking downloads, or searching external indexes to check if it has leaked, decreases anonymity since you must send both the question and get the answer, likely many times. Any contract based tracking can't be enforced.
+
+, or check 3rd party indexing services if they've found out about the files existence or popularity, but analogous to looking at the bitcoin adresses
+
+Some very unreliable tracking of how a shared file spreads can be possible from scouring 3rd party indexes, or just tracking downloads of the metadata and blobs from the places where you uploaded it to. Any tracking attempts though will weaken your anonymity, analogous to how this works with bitcoin.
+
+ we have that someone who can download and decrypt a file, could as well keep the access to that file forever. Having lists of who was given access to what is not really trustable, especially since someone might catch the blobs and someone else get the decryption keys. Or just the metadata, and from there find the referenced data from other, more leaky, storage systems.
+
 Compare https://github.com/upspin/upspin/blob/master/doc/security.md and https://github.com/upspin/upspin/blob/master/doc/access_control.md
 
 ### Anonymity
-
+Similar to SQRL, allspan keys _should be made so they_ are pseudonymous, ensuring they are at most as traceable as bitcoin transactions.
 
 ## New terminology
 - What [Camlistory said](https://github.com/camlistore/camlistore/blob/master/doc/terms.md) about blob, blogref, blob server, schema blob, claim, permanode, sync
