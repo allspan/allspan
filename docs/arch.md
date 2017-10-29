@@ -60,7 +60,7 @@ Contrast that with the alternatives, none of which have a payment or tipping met
 - [Snappy compression](https://google.github.io/snappy/) for cpu-friendly space/&time saving
 - private long-term routing by [paid remailers](http://nakamotoinstitute.org/for-pay-remailers/)
 - nodejs or https://github.com/twisted/twisted asynch runtimes
-- [multihash](https://github.com/multiformats/multihash), ([multibase](https://github.com/multiformats/multibase), etc
+- [self-describing content-id](https://github.com/ipld/cid), [multihash](https://github.com/multiformats/multihash), ([multibase](https://github.com/multiformats/multibase), etc
 
 
 ## Prior art in a wide sense
